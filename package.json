@@ -5,7 +5,8 @@
   "scripts": {
     "convert": "bun src/convert.ts",
     "set-and-install": "bun src/install.ts",
-    "test-install": "bun test src/repos/install.test.ts"
+    "test-install": "bun test src/repos/install.test.ts",
+    "test-tests": "bun test src/repos/tests.test.ts"
   },
   "devDependencies": {
     "@types/bun": "latest",

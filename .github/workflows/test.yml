@@ -23,3 +23,7 @@ jobs:
 
       - name: Test `bun install` for target repos
         run: bun test-install
+        continue-on-error: true
+
+      - name: Test `bun test` for target repos
+        run: bun test-tests

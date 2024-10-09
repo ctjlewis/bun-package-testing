@@ -3,7 +3,6 @@ import { Glob } from "bun"
 import { join } from "path"
 
 const reposDir = "./repos"
-
 const skip = ["mini-css-extract-plugin.git"]
 
 describe("bun install", () => {
@@ -17,12 +16,12 @@ describe("bun install", () => {
       continue
     }
 
-    it(`${repo}`, async () => {
+    it(repo, async () => {
       console.log(i++, "of", repos.length)
 
       const repoPath = join(reposDir, repo)
-      const result = await Bun.$`cd ${repoPath} && bun i`
-      expect(result.exitCode).toBe(0)
+      const { exitCode } = Bun.spawnSync(["bun", "install"], { cwd: repoPath })
+      expect(exitCode).toBe(0)
     })
   }
 })
