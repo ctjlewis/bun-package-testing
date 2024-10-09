@@ -11,7 +11,23 @@ interface PackageResult {
   [packageName: string]: string;
 }
 
-async function checkPackageJson(packageJsonPath: string): Promise<[string, string] | null> {
+function normalizeGitHubUrl(url: string): string | null {
+  // Remove any fragment identifier (#...)
+  url = url.split("#")[0]
+  
+  const githubRegex = /https?:\/\/github\.com\/([^\/]+)\/([^\/]+)/
+  const match = url.match(githubRegex)
+  if (match) {
+    const [, user, repo] = match
+    // Remove any .git extension if present
+    const cleanRepo = repo.endsWith(".git") ? repo.slice(0, -4) : repo
+    return `https://github.com/${user}/${cleanRepo}.git`
+  }
+  return null
+}
+
+
+async function checkPackageJson(packageJsonPath: string): Promise<{ name: string; githubUrl: string } | null> {
   try {
     const packageJsonContent = await readFile(packageJsonPath, "utf-8")
     const packageJson: PackageJson = JSON.parse(packageJsonContent)
@@ -20,8 +36,11 @@ async function checkPackageJson(packageJsonPath: string): Promise<[string, strin
       script.toLowerCase().includes("jest")
     )
 
-    if (hasJest && packageJson.homepage?.toLowerCase().includes("github.com")) {
-      return [packageJson.name, packageJson.homepage]
+    if (hasJest && packageJson.homepage) {
+      const normalizedUrl = normalizeGitHubUrl(packageJson.homepage)
+      if (normalizedUrl) {
+        return { name: packageJson.name, githubUrl: normalizedUrl }
+      }
     }
   } catch (error) {
     console.warn(`Could not read package.json at ${packageJsonPath}`)
@@ -32,35 +51,31 @@ async function checkPackageJson(packageJsonPath: string): Promise<[string, strin
 
 const packagesUsingJestWithGithub: PackageResult = {}
 
-try {
-  const modulesDirs = await readdir("./node_modules", { withFileTypes: true })
-
-  for (const dir of modulesDirs) {
-    if (dir.isDirectory()) {
-      const dirPath = join("./node_modules", dir.name)
-        
-      if (dir.name.startsWith("@")) {
-        // For org packages, descend one level deeper
-        const orgDirs = await readdir(dirPath, { withFileTypes: true })
-        for (const orgDir of orgDirs) {
-          if (orgDir.isDirectory()) {
-            const packageJsonPath = join(dirPath, orgDir.name, "package.json")
-            const result = await checkPackageJson(packageJsonPath)
-            if (result) {
-              packagesUsingJestWithGithub[result[0]] = result[1]
-            }
-          }
-        }
+async function scanDirectory(dirPath: string) {
+  const entries = await readdir(dirPath, { withFileTypes: true })
+  
+  for (const entry of entries) {
+    if (entry.isDirectory()) {
+      const fullPath = join(dirPath, entry.name)
+      
+      if (entry.name.startsWith("@")) {
+        // For org packages, only descend into subdirectories
+        await scanDirectory(fullPath)
       } else {
-        // For regular packages
-        const packageJsonPath = join(dirPath, "package.json")
+        // For regular packages or subdirectories of org packages
+        const packageJsonPath = join(fullPath, "package.json")
         const result = await checkPackageJson(packageJsonPath)
         if (result) {
-          packagesUsingJestWithGithub[result[0]] = result[1]
+          const { name, githubUrl } = result
+          packagesUsingJestWithGithub[name] = githubUrl
         }
       }
     }
   }
+}
+
+try {
+  await scanDirectory("./node_modules")
 
   console.log("Packages using Jest and have a GitHub homepage:")
   console.log(JSON.stringify(packagesUsingJestWithGithub, null, 2))

@@ -1,0 +1,363 @@
+[submodule "repos/postcss-apply"]
+	path = repos/postcss-apply
+	url = https://github.com/pascalduez/postcss-apply.git
+[submodule "repos/clean-webpack-plugin.git"]
+	path = repos/clean-webpack-plugin.git
+	url = https://github.com/johnagan/clean-webpack-plugin.git
+[submodule "repos/tapable.git"]
+	path = repos/tapable.git
+	url = https://github.com/webpack/tapable.git
+[submodule "repos/formidable.git"]
+	path = repos/formidable.git
+	url = https://github.com/node-formidable/formidable.git
+[submodule "repos/postcss-apply.git"]
+	path = repos/postcss-apply.git
+	url = https://github.com/pascalduez/postcss-apply.git
+[submodule "repos/eslint-loader.git"]
+	path = repos/eslint-loader.git
+	url = https://github.com/webpack-contrib/eslint-loader.git
+[submodule "repos/css-loader.git"]
+	path = repos/css-loader.git
+	url = https://github.com/webpack-contrib/css-loader.git
+[submodule "repos/zen-observable.git"]
+	path = repos/zen-observable.git
+	url = https://github.com/zenparsing/zen-observable.git
+[submodule "repos/node-abort-controller.git"]
+	path = repos/node-abort-controller.git
+	url = https://github.com/southpolesteve/node-abort-controller.git
+[submodule "repos/node-notifier.git"]
+	path = repos/node-notifier.git
+	url = https://github.com/mikaelbr/node-notifier.git
+[submodule "repos/raw-loader.git"]
+	path = repos/raw-loader.git
+	url = https://github.com/webpack-contrib/raw-loader.git
+[submodule "repos/exenv-es6.git"]
+	path = repos/exenv-es6.git
+	url = https://github.com/chrisdholt/exenv-es6.git
+[submodule "repos/change-case.git"]
+	path = repos/change-case.git
+	url = https://github.com/blakeembrey/change-case.git
+[submodule "repos/webpack-sources.git"]
+	path = repos/webpack-sources.git
+	url = https://github.com/webpack/webpack-sources.git
+[submodule "repos/util.git"]
+	path = repos/util.git
+	url = https://github.com/jsonjoy-com/util.git
+[submodule "repos/json-pack.git"]
+	path = repos/json-pack.git
+	url = https://github.com/jsonjoy-com/json-pack.git
+[submodule "repos/base64.git"]
+	path = repos/base64.git
+	url = https://github.com/jsonjoy-com/base64.git
+[submodule "repos/sass-loader.git"]
+	path = repos/sass-loader.git
+	url = https://github.com/webpack-contrib/sass-loader.git
+[submodule "repos/is-what.git"]
+	path = repos/is-what.git
+	url = https://github.com/mesqueeb/is-what.git
+[submodule "repos/vue-hot-reload-api.git"]
+	path = repos/vue-hot-reload-api.git
+	url = https://github.com/vuejs/vue-hot-reload-api.git
+[submodule "repos/tuf-js.git"]
+	path = repos/tuf-js.git
+	url = https://github.com/theupdateframework/tuf-js.git
+[submodule "repos/css-to-react-native.git"]
+	path = repos/css-to-react-native.git
+	url = https://github.com/styled-components/css-to-react-native.git
+[submodule "repos/aria-query.git"]
+	path = repos/aria-query.git
+	url = https://github.com/A11yance/aria-query.git
+[submodule "repos/fastest-levenshtein.git"]
+	path = repos/fastest-levenshtein.git
+	url = https://github.com/ka-weihe/fastest-levenshtein.git
+[submodule "repos/rollup-pluginutils.git"]
+	path = repos/rollup-pluginutils.git
+	url = https://github.com/rollup/rollup-pluginutils.git
+[submodule "repos/html-webpack-plugin.git"]
+	path = repos/html-webpack-plugin.git
+	url = https://github.com/jantimon/html-webpack-plugin.git
+[submodule "repos/copy-webpack-plugin.git"]
+	path = repos/copy-webpack-plugin.git
+	url = https://github.com/webpack-contrib/copy-webpack-plugin.git
+[submodule "repos/xmldom.git"]
+	path = repos/xmldom.git
+	url = https://github.com/xmldom/xmldom.git
+[submodule "repos/gensync.git"]
+	path = repos/gensync.git
+	url = https://github.com/loganfsmyth/gensync.git
+[submodule "repos/ember-rfc176-data.git"]
+	path = repos/ember-rfc176-data.git
+	url = https://github.com/ember-cli/ember-rfc176-data.git
+[submodule "repos/common-tags.git"]
+	path = repos/common-tags.git
+	url = https://github.com/zspecza/common-tags.git
+[submodule "repos/ajv-formats.git"]
+	path = repos/ajv-formats.git
+	url = https://github.com/ajv-validator/ajv-formats.git
+[submodule "repos/icss-utils.git"]
+	path = repos/icss-utils.git
+	url = https://github.com/css-modules/icss-utils.git
+[submodule "repos/prop-types-extra.git"]
+	path = repos/prop-types-extra.git
+	url = https://github.com/react-bootstrap/prop-types-extra.git
+[submodule "repos/pure-rand.git"]
+	path = repos/pure-rand.git
+	url = https://github.com/dubzzz/pure-rand.git
+[submodule "repos/tree-dump.git"]
+	path = repos/tree-dump.git
+	url = https://github.com/streamich/tree-dump.git
+[submodule "repos/apollo-client.git"]
+	path = repos/apollo-client.git
+	url = https://github.com/apollographql/apollo-client.git
+[submodule "repos/exponential-backoff.git"]
+	path = repos/exponential-backoff.git
+	url = https://github.com/coveo/exponential-backoff.git
+[submodule "repos/await-to-js.git"]
+	path = repos/await-to-js.git
+	url = https://github.com/scopsy/await-to-js.git
+[submodule "repos/node-stack-trace.git"]
+	path = repos/node-stack-trace.git
+	url = https://github.com/felixge/node-stack-trace.git
+[submodule "repos/terser-webpack-plugin.git"]
+	path = repos/terser-webpack-plugin.git
+	url = https://github.com/webpack-contrib/terser-webpack-plugin.git
+[submodule "repos/url-loader.git"]
+	path = repos/url-loader.git
+	url = https://github.com/webpack-contrib/url-loader.git
+[submodule "repos/image-quantization.git"]
+	path = repos/image-quantization.git
+	url = https://github.com/ibezkrovnyi/image-quantization.git
+[submodule "repos/cli-highlight.git"]
+	path = repos/cli-highlight.git
+	url = https://github.com/felixfbecker/cli-highlight.git
+[submodule "repos/html-loader.git"]
+	path = repos/html-loader.git
+	url = https://github.com/webpack-contrib/html-loader.git
+[submodule "repos/apollo-link.git"]
+	path = repos/apollo-link.git
+	url = https://github.com/apollographql/apollo-link.git
+[submodule "repos/logkitty.git"]
+	path = repos/logkitty.git
+	url = https://github.com/zamotany/logkitty.git
+[submodule "repos/eslint-plugin-testing-library.git"]
+	path = repos/eslint-plugin-testing-library.git
+	url = https://github.com/testing-library/eslint-plugin-testing-library.git
+[submodule "repos/eslint-webpack-plugin.git"]
+	path = repos/eslint-webpack-plugin.git
+	url = https://github.com/webpack-contrib/eslint-webpack-plugin.git
+[submodule "repos/xml-js.git"]
+	path = repos/xml-js.git
+	url = https://github.com/nashwaan/xml-js.git
+[submodule "repos/react-datepicker.git"]
+	path = repos/react-datepicker.git
+	url = https://github.com/Hacker0x01/react-datepicker.git
+[submodule "repos/checkbox.git"]
+	path = repos/checkbox.git
+	url = https://github.com/react-component/checkbox.git
+[submodule "repos/node-version.git"]
+	path = repos/node-version.git
+	url = https://github.com/srod/node-version.git
+[submodule "repos/postcss-modules-values.git"]
+	path = repos/postcss-modules-values.git
+	url = https://github.com/css-modules/postcss-modules-values.git
+[submodule "repos/tabbable.git"]
+	path = repos/tabbable.git
+	url = https://github.com/focus-trap/tabbable.git
+[submodule "repos/webpack-dev-middleware.git"]
+	path = repos/webpack-dev-middleware.git
+	url = https://github.com/webpack/webpack-dev-middleware.git
+[submodule "repos/jwt-decode.git"]
+	path = repos/jwt-decode.git
+	url = https://github.com/auth0/jwt-decode.git
+[submodule "repos/simple-xml-to-json.git"]
+	path = repos/simple-xml-to-json.git
+	url = https://github.com/nirgit/simple-xml-to-json.git
+[submodule "repos/schema-utils.git"]
+	path = repos/schema-utils.git
+	url = https://github.com/webpack/schema-utils.git
+[submodule "repos/yargs-unparser.git"]
+	path = repos/yargs-unparser.git
+	url = https://github.com/yargs/yargs-unparser.git
+[submodule "repos/webpack.git"]
+	path = repos/webpack.git
+	url = https://github.com/webpack/webpack.git
+[submodule "repos/less-loader.git"]
+	path = repos/less-loader.git
+	url = https://github.com/webpack-contrib/less-loader.git
+[submodule "repos/warning.git"]
+	path = repos/warning.git
+	url = https://github.com/BerkeleyTrue/warning.git
+[submodule "repos/smob.git"]
+	path = repos/smob.git
+	url = https://github.com/Tada5hi/smob.git
+[submodule "repos/optimize-css-assets-webpack-plugin.git"]
+	path = repos/optimize-css-assets-webpack-plugin.git
+	url = https://github.com/NMFR/optimize-css-assets-webpack-plugin.git
+[submodule "repos/vuex.git"]
+	path = repos/vuex.git
+	url = https://github.com/vuejs/vuex.git
+[submodule "repos/identity-obj-proxy.git"]
+	path = repos/identity-obj-proxy.git
+	url = https://github.com/keyanzhang/identity-obj-proxy.git
+[submodule "repos/lines-and-columns.git"]
+	path = repos/lines-and-columns.git
+	url = https://github.com/eventualbuddha/lines-and-columns.git
+[submodule "repos/eslint-plugin-promise.git"]
+	path = repos/eslint-plugin-promise.git
+	url = https://github.com/eslint-community/eslint-plugin-promise.git
+[submodule "repos/immer.git"]
+	path = repos/immer.git
+	url = https://github.com/immerjs/immer.git
+[submodule "repos/ant-design-icons.git"]
+	path = repos/ant-design-icons.git
+	url = https://github.com/ant-design/ant-design-icons.git
+[submodule "repos/ant-design-colors.git"]
+	path = repos/ant-design-colors.git
+	url = https://github.com/ant-design/ant-design-colors.git
+[submodule "repos/webpack-dev-server.git"]
+	path = repos/webpack-dev-server.git
+	url = https://github.com/webpack/webpack-dev-server.git
+[submodule "repos/ajv-keywords.git"]
+	path = repos/ajv-keywords.git
+	url = https://github.com/epoberezkin/ajv-keywords.git
+[submodule "repos/sigstore-js.git"]
+	path = repos/sigstore-js.git
+	url = https://github.com/sigstore/sigstore-js.git
+[submodule "repos/postcss-modules-scope.git"]
+	path = repos/postcss-modules-scope.git
+	url = https://github.com/css-modules/postcss-modules-scope.git
+[submodule "repos/http-proxy-middleware.git"]
+	path = repos/http-proxy-middleware.git
+	url = https://github.com/chimurai/http-proxy-middleware.git
+[submodule "repos/fastify-warning.git"]
+	path = repos/fastify-warning.git
+	url = https://github.com/fastify/fastify-warning.git
+[submodule "repos/file-selector.git"]
+	path = repos/file-selector.git
+	url = https://github.com/react-dropzone/file-selector.git
+[submodule "repos/simple-update-notifier.git"]
+	path = repos/simple-update-notifier.git
+	url = https://github.com/alexbrazier/simple-update-notifier.git
+[submodule "repos/react-dropzone.git"]
+	path = repos/react-dropzone.git
+	url = https://github.com/react-dropzone/react-dropzone.git
+[submodule "repos/jupyterlab.git"]
+	path = repos/jupyterlab.git
+	url = https://github.com/jupyterlab/jupyterlab.git
+[submodule "repos/css-minimizer-webpack-plugin.git"]
+	path = repos/css-minimizer-webpack-plugin.git
+	url = https://github.com/webpack-contrib/css-minimizer-webpack-plugin.git
+[submodule "repos/postcss-modules-extract-imports.git"]
+	path = repos/postcss-modules-extract-imports.git
+	url = https://github.com/css-modules/postcss-modules-extract-imports.git
+[submodule "repos/react-fontawesome.git"]
+	path = repos/react-fontawesome.git
+	url = https://github.com/FortAwesome/react-fontawesome.git
+[submodule "repos/style-loader.git"]
+	path = repos/style-loader.git
+	url = https://github.com/webpack-contrib/style-loader.git
+[submodule "repos/babel-plugin-ember-modules-api-polyfill.git"]
+	path = repos/babel-plugin-ember-modules-api-polyfill.git
+	url = https://github.com/ember-cli/babel-plugin-ember-modules-api-polyfill.git
+[submodule "repos/postcss-sorting.git"]
+	path = repos/postcss-sorting.git
+	url = https://github.com/hudochenkov/postcss-sorting.git
+[submodule "repos/webpack-bundle-analyzer.git"]
+	path = repos/webpack-bundle-analyzer.git
+	url = https://github.com/webpack-contrib/webpack-bundle-analyzer.git
+[submodule "repos/node-cross-spawn.git"]
+	path = repos/node-cross-spawn.git
+	url = https://github.com/moxystudio/node-cross-spawn.git
+[submodule "repos/reactstrap.git"]
+	path = repos/reactstrap.git
+	url = https://github.com/reactstrap/reactstrap.git
+[submodule "repos/extract-text-webpack-plugin.git"]
+	path = repos/extract-text-webpack-plugin.git
+	url = https://github.com/webpack-contrib/extract-text-webpack-plugin.git
+[submodule "repos/jupyter-ui-toolkit.git"]
+	path = repos/jupyter-ui-toolkit.git
+	url = https://github.com/jupyterlab-contrib/jupyter-ui-toolkit.git
+[submodule "repos/jupyter_ydoc.git"]
+	path = repos/jupyter_ydoc.git
+	url = https://github.com/jupyter-server/jupyter_ydoc.git
+[submodule "repos/mini-css-extract-plugin.git"]
+	path = repos/mini-css-extract-plugin.git
+	url = https://github.com/webpack-contrib/mini-css-extract-plugin.git
+[submodule "repos/ansi-fragments.git"]
+	path = repos/ansi-fragments.git
+	url = https://github.com/zamotany/ansi-fragments.git
+[submodule "repos/source-map-loader.git"]
+	path = repos/source-map-loader.git
+	url = https://github.com/webpack-contrib/source-map-loader.git
+[submodule "repos/immutability-helper.git"]
+	path = repos/immutability-helper.git
+	url = https://github.com/kolodny/immutability-helper.git
+[submodule "repos/fast-equals.git"]
+	path = repos/fast-equals.git
+	url = https://github.com/planttheidea/fast-equals.git
+[submodule "repos/uglifyjs-webpack-plugin.git"]
+	path = repos/uglifyjs-webpack-plugin.git
+	url = https://github.com/webpack-contrib/uglifyjs-webpack-plugin.git
+[submodule "repos/vue-property-decorator.git"]
+	path = repos/vue-property-decorator.git
+	url = https://github.com/kaorun343/vue-property-decorator.git
+[submodule "repos/scss-tokenizer.git"]
+	path = repos/scss-tokenizer.git
+	url = https://github.com/sasstools/scss-tokenizer.git
+[submodule "repos/free-style.git"]
+	path = repos/free-style.git
+	url = https://github.com/blakeembrey/free-style.git
+[submodule "repos/make-error.git"]
+	path = repos/make-error.git
+	url = https://github.com/JsCommunity/make-error.git
+[submodule "repos/ember-data-rfc395-data.git"]
+	path = repos/ember-data-rfc395-data.git
+	url = https://github.com/ember-data/ember-data-rfc395-data.git
+[submodule "repos/postcss-loader.git"]
+	path = repos/postcss-loader.git
+	url = https://github.com/webpack-contrib/postcss-loader.git
+[submodule "repos/hyperdyperid.git"]
+	path = repos/hyperdyperid.git
+	url = https://github.com/streamich/hyperdyperid.git
+[submodule "repos/js-pairs.git"]
+	path = repos/js-pairs.git
+	url = https://github.com/hexlet-components/js-pairs.git
+[submodule "repos/node-data-uri-to-buffer.git"]
+	path = repos/node-data-uri-to-buffer.git
+	url = https://github.com/TooTallNate/node-data-uri-to-buffer.git
+[submodule "repos/react-hot-loader.git"]
+	path = repos/react-hot-loader.git
+	url = https://github.com/gaearon/react-hot-loader.git
+[submodule "repos/tough-cookie.git"]
+	path = repos/tough-cookie.git
+	url = https://github.com/salesforce/tough-cookie.git
+[submodule "repos/v-click-outside-x.git"]
+	path = repos/v-click-outside-x.git
+	url = https://github.com/SergioCrisostomo/v-click-outside-x.git
+[submodule "repos/nth-check.git"]
+	path = repos/nth-check.git
+	url = https://github.com/fb55/nth-check.git
+[submodule "repos/dedent.git"]
+	path = repos/dedent.git
+	url = https://github.com/dmnd/dedent.git
+[submodule "repos/ajv-draft-04.git"]
+	path = repos/ajv-draft-04.git
+	url = https://github.com/ajv-validator/ajv-draft-04.git
+[submodule "repos/stylus-loader.git"]
+	path = repos/stylus-loader.git
+	url = https://github.com/webpack-contrib/stylus-loader.git
+[submodule "repos/jest-watch-typeahead.git"]
+	path = repos/jest-watch-typeahead.git
+	url = https://github.com/jest-community/jest-watch-typeahead.git
+[submodule "repos/react-jsonschema-form.git"]
+	path = repos/react-jsonschema-form.git
+	url = https://github.com/rjsf-team/react-jsonschema-form.git
+[submodule "repos/uncontrollable.git"]
+	path = repos/uncontrollable.git
+	url = https://github.com/jquense/uncontrollable.git
+[submodule "repos/thingies.git"]
+	path = repos/thingies.git
+	url = https://github.com/streamich/thingies.git
+[submodule "repos/file-loader.git"]
+	path = repos/file-loader.git
+	url = https://github.com/webpack-contrib/file-loader.git
